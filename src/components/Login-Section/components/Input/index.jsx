@@ -11,7 +11,7 @@ export function InputPart() {
         placeholder="At least 8 characters"
         suffix={<LockOutlined style={{ float: "left" }} />}
       />
-      <div style={{ margin: "5px", padding: "0", float: "right" }}>
+      <div style={{ marginTop: "5px", marginBottom: "7px", padding: "0", float: "right" }}>
         <Link>
           <strong>Forgot password?</strong>
         </Link>

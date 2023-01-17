@@ -2,8 +2,8 @@ import './App.css'
 
 
 /////////ant design /////////////
-import { Right } from './components/Right';
-import { Left } from './components/Left';
+import { LoginSection } from './components/Login-Section';
+import { CarouselSection } from './components/Carousel-Section';
 import { Col, Row } from 'antd';
 
 
@@ -13,10 +13,10 @@ import { Col, Row } from 'antd';
 export const App = () => (
   <Row className='all'>
   <Col span={11} style={{ backgroundColor: '#f5f7f9' }}>
-    <Left />
+    <CarouselSection />
   </Col>
   <Col span={13}>
-    <Right />
+    <LoginSection />
   </Col>
 </Row>
 );

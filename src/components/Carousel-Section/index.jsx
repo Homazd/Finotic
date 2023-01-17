@@ -1,15 +1,15 @@
 import { Carousel } from "antd";
-import {CarouselPart} from "./Carousel";
+import {CarouselPart} from "./components/Carousel";
 
 const contentStyle = {
     height: '160px',
     color: '#fff',
     lineHeight: '160px',
     textAlign: 'center',
-    background: '#364d79',
+    background: 'gray',
   };
 
-export function Left() {
+export function CarouselSection() {
   return (
     <>
       <Carousel autoplay>
